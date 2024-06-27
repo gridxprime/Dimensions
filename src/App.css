@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: #1f1f1f;
+  font-family: 'Courier New', Courier, monospace;
+  color: #fffff0;
+}
+
+.home{
+
+display: grid;
+place-items: center;
+min-height: 100vh;
+
+
+
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 50vw;
+  border: 1px solid #fff;
+  background: #3f3f3f;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.dimensions{
+  display: flex;
+  flex-direction: column;
+}
+
+.start{
+  min-width: 250px;
+  margin: 0 auto;
+  padding: 10px 0
+}
