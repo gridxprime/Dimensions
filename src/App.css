@@ -37,7 +37,7 @@ min-height: 100vh;
 }
 
 .start{
-  min-width: 250px;
+  width: 70%;
   margin: 0 auto;
   padding: 10px 0
 }
