@@ -16,7 +16,7 @@ function App() {
       <span>On this page you can find out what's height and width on your browser</span>
       <div className="dimensions">
         <span className='height'>Height: <b>{dimensions.height}</b></span>
-        <span className='width'>WIdth: <b>{dimensions.width}</b></span>
+        <span className='width'>Width: <b>{dimensions.width}</b></span>
       </div>
       <button onClick={handleClickButton} className='start'>
         Start

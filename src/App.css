@@ -9,7 +9,8 @@
 }
 
 body{
-  background: #1f1f1f;
+  background: url('/src/assets/bg.jpg');
+  background-size: cover;
   font-family: Workbench;
   color: #fffff0;
   font-size: clamp(20px, 3vw, 30px);
@@ -28,12 +29,21 @@ min-height: 100vh;
 .main{
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 30px;
   width: 50vw;
   border: 1px solid #fff;
-  background: #3f3f3f;
+  background: rgba(0, 140, 255, 0.306);
   padding: 15px;
   border-radius: 10px;
+  backdrop-filter: blur(2px);
+  filter: drop-shadow(#000 5px 5px 5px);
+  box-shadow:   rgba(0, 187, 255, 0.42) 2px 2px 5px, 
+                rgba(0, 187, 255, 0.42) -2px -2px 5px,
+                rgba(0, 187, 255, 0.42) 2px -2px 5px,
+                rgba(0, 187, 255, 0.42) -2px 2px 5px;
+  
+
+                
 }
 
 .dimensions{
@@ -42,14 +52,19 @@ min-height: 100vh;
 }
 
 .start{
+  border: none;
   width: 70%;
   margin: 0 auto;
   padding: 10px 0;
   font-family: Workbench;
-  background: #000;
+  background: #ffffff3c;
   color: #fff;
   font-size: clamp(20px, 3vw, 30px);
   border-radius: 10px;
   outline: 1px solid #fff;
+  backdrop-filter: blur(2px)
 }
 
+.start:active{
+  border: none;
+}
